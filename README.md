@@ -29,7 +29,7 @@ foreach (PlayerCharacterMasterController playerCharacterMasterController in Play
 	}
 }
 
-Step 2:
+Step 2[**source code has been modified**]:
 Edit Assembly-CSharp.dll -> RoR2 -> PurchaseInteraction -> OnInteractionBegin() -> line 321
 
 Change:
@@ -45,3 +45,7 @@ foreach (PlayerCharacterMasterController playerCharacterMasterController in Play
 }
 
 There's probably a few better ways of doing this, but It Just Works(TM)
+
+--------------------------------------------------
+- version Skills 2.0
+
